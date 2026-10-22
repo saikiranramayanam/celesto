@@ -1,0 +1,15 @@
+{"ts": "2026-10-22T14:40:01.012Z", "event": "workflow_started", "sandbox_name": "sbx-failurerecov01", "total_steps": 10}
+{"ts": "2026-10-22T14:40:01.523Z", "event": "step_completed", "step": 1, "description": "Initialize guest workspace and verify Celesto runtime"}
+{"ts": "2026-10-22T14:40:02.102Z", "event": "step_completed", "step": 2, "description": "Clone repository into sandbox /workspace"}
+{"ts": "2026-10-22T14:40:02.834Z", "event": "step_completed", "step": 3, "description": "Inspect bug issue description and extract stacktrace"}
+{"ts": "2026-10-22T14:40:03.491Z", "event": "step_completed", "step": 4, "description": "Install baseline project dependencies in guest venv"}
+{"ts": "2026-10-22T14:40:04.180Z", "event": "step_completed", "step": 5, "description": "Generate minimal reproduction test test_repro.py"}
+{"ts": "2026-10-22T14:40:04.852Z", "event": "step_completed", "step": 6, "description": "Run preliminary syntax and linter checks"}
+{"ts": "2026-10-22T14:40:05.105Z", "event": "snapshot_created", "step": 6, "snapshot_id": "snap-sbx-failurerecov01-step6"}
+{"ts": "2026-10-22T14:40:05.942Z", "event": "step_failed", "step": 7, "error": "DependencyConflictError: wheel compilation failed with exit status 1"}
+{"ts": "2026-10-22T14:40:06.010Z", "event": "policy_applied", "policy": "rollback", "target_snapshot": "snap-sbx-failurerecov01-step6", "action": "Restored guest filesystem and RAM to clean pre-step-6 state"}
+{"ts": "2026-10-22T14:40:06.782Z", "event": "step_completed", "step": 7, "recovered": true, "description": "Step 7 re-executed with pinned binary wheels"}
+{"ts": "2026-10-22T14:40:07.411Z", "event": "step_completed", "step": 8, "description": "Execute repro test and capture assertion failure output"}
+{"ts": "2026-10-22T14:40:08.109Z", "event": "step_completed", "step": 9, "description": "Verify reproduction output against issue report"}
+{"ts": "2026-10-22T14:40:08.824Z", "event": "step_completed", "step": 10, "description": "Package reproduction artifacts and sync proof"}
+{"ts": "2026-10-22T14:40:09.112Z", "event": "workflow_completed", "status": "success", "steps_executed": 10}

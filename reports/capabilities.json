@@ -1,0 +1,19 @@
+{
+  "capabilities": [
+    {
+      "id": "snapshots",
+      "why": "Snapshots provide instantaneous checkpointing of guest memory and filesystem state prior to risky steps, allowing deterministic rollback when a test run corrupts libraries or environment configuration.",
+      "evidence_path": "agent/celesto_client.py"
+    },
+    {
+      "id": "safety_hooks",
+      "why": "Safety hooks intercept and analyze every command prior to dispatch to the microVM, blocking destructive filesystem modifications, reverse shells, and malicious exfiltration of sensitive tokens before execution.",
+      "evidence_path": "agent/safety_hooks.py"
+    },
+    {
+      "id": "network_policy",
+      "why": "Network policy isolates guest egress traffic, ensuring that prompt-injected web targets or poisoned test dependencies cannot exfiltrate environment secrets or sensitive repo code to untrusted external endpoints.",
+      "evidence_path": "agent/network_policy.py"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "rollback",
+  "rationale": "When step 7 of 10 fails due to an unexpected dependency installation corruption or test regression, the rollback policy instantaneously restores the microVM snapshot captured at step 6. This discards dirty state without incurring the 500ms re-boot penalty and network overhead of starting a fresh sandbox from scratch, ensuring fast, deterministic recovery while preserving prior compilation state.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

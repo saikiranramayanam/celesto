@@ -1,0 +1,13 @@
+.env
+ledger_fallback.db
+*.db
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/

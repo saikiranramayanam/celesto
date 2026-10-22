@@ -1,0 +1,1 @@
+# Celesto Agent core package

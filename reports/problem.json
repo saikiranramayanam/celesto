@@ -1,0 +1,6 @@
+{
+  "who": "Software engineering teams triaging bug reports who need automated, reproducible failing test cases before writing fixes.",
+  "agent_work": "Clones the repository in an isolated Celesto microVM, inspects the issue report, writes a minimal reproducing test, and verifies failure without host access.",
+  "proof_output": "repro_failing_test.py exit code 1 with verified assertion failure diff",
+  "idea_source": "idea_bank"
+}

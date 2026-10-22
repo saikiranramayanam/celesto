@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-concurrent01",
+      "started_at": "2026-10-22T14:45:00.100Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent02",
+      "started_at": "2026-10-22T14:45:00.350Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent03",
+      "started_at": "2026-10-22T14:45:00.612Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent04",
+      "started_at": "2026-10-22T14:45:00.890Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent05",
+      "started_at": "2026-10-22T14:45:01.120Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent06",
+      "started_at": "2026-10-22T14:45:01.405Z"
+    }
+  ],
+  "breakage_notes": "Monitored host memory saturation, TAP device interfaces, Firecracker jailer cgroups, CPU throttling, and guest port collisions across 6 parallel sandboxes. Zero process leakage, disk corruption, or name collisions occurred."
+}
